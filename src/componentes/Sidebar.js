@@ -1,7 +1,9 @@
 import "./estilos-componentes/estilos-sidebar.css"
+
 import { BiHomeAlt, BiListUl, BiPlusCircle, BiEditAlt, BiTrashAlt} from "react-icons/bi";
 import { BrowserRouter as Router, Routes, Route, NavLink } from "react-router-dom";
 import logo from "./pics/879864.png"
+import { Mostrador } from "./Mostrador";
 import { PantallaInicio } from "./PantallInicio";
 
 export function Sidebar() {
@@ -18,7 +20,7 @@ export function Sidebar() {
                 </ul>
 
                 <Routes>
-                    <Route path="/" element={ <PantallaInicio/> } />
+                    <Route path="/" element={ <Mostrador/> } />
                 </Routes>
             </Router>
         </aside>
