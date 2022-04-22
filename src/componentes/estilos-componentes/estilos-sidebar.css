@@ -1,0 +1,15 @@
+aside{
+    float: left;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    width: 18em;
+    height: 100vh;
+    box-shadow: 0.5px 0.5px 3px rgb(240, 240, 240);
+}
+
+.logo{
+    width: 3em;
+    margin-top: 1em;
+    left: 1em;
+}

@@ -1,0 +1,5 @@
+.pantalla{
+    height: 89vh;
+    width: calc(100vh*2);
+    float: right;
+}
